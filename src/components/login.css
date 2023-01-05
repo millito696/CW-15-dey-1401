@@ -1,0 +1,35 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+}
+
+input,
+button {
+    margin: 5px 10px;
+    width: 90%;
+    text-align: center;
+    outline: none;
+    border: 1px solid darkgray;
+    padding: 5px 0;
+
+}
+
+.login-button {
+    background-color: #5342B5;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+
+}
+
+a {
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+#forget-pass {
+    color: blue;
+}
